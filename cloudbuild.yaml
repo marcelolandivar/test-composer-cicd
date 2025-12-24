@@ -32,7 +32,7 @@ steps:
   - -x
   - .*\.pyc|airflow_monitoring.py
   - /workspace/dags
-  - gs://semantic-bucket-test/dags/
+  - gs://us-central1-test-composer-f493d5df-bucket/dags/
 
 options:
   logging: CLOUD_LOGGING_ONLY
